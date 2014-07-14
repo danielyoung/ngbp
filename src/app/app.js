@@ -3,6 +3,7 @@ angular.module( 'ngBoilerplate', [
   'templates-common',
   'ngBoilerplate.home',
   'ngBoilerplate.about',
+  'ngBoilerplate.animals',
   'ui.router'
 ])
 
@@ -19,7 +20,4 @@ angular.module( 'ngBoilerplate', [
       $scope.pageTitle = toState.data.pageTitle + ' | ngBoilerplate' ;
     }
   });
-})
-
-;
-
+});
